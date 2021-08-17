@@ -40,11 +40,11 @@ main()
 	}
 	cov = sum/n;
 	r = cov/(sdx*sdy);
-/*	printf("\nMean of x : %0.2f", avgx);
+	printf("\nMean of x : %0.2f", avgx);
 	printf("\nMean of y : %0.2f", avgy);
 	printf("\nStandard Deviation of x : %0.2f", sdx);
 	printf("\nStandard Deviation of y : %0.2f", sdy);
-	printf("\nCovariance between x & y : %0.2f",cov); */
+	printf("\nCovariance between x & y : %0.2f",cov);
 	printf("\nCorrelation Co-efficient : %0.5f",r);
 	return 0;
 }

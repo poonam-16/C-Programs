@@ -1,6 +1,6 @@
-//Accept Binomial Parameters n & p
-//Calculate & print bino probability distr using recurrence Probability formula
-//P(x+1) = [(n-x)/(x+1)]*(p/q)*P(x) : x = 0,1,2, ..... (n-1)
+/* Accept Binomial Parameters n & p
+Calculate & print bino probability distr using recurrence Probability formula
+P(x+1) = [(n-x)/(x+1)]*(p/q)*P(x) : x = 0,1,2, ..... (n-1) */
 #include<stdio.h>
 #include<conio.h>
 main()

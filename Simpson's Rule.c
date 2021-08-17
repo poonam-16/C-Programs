@@ -14,17 +14,13 @@ main()
 	printf("\nEnter upper limit : ");
 	scanf("%f",&b);
 	h = (b-a)/n;
-	//fa = (2*a) + 3;
-	//fb = (2*b) + 3;
 	sum = f(a) + f(b);
 	for(i=1;i<n;i=i+2) //odd terms
 	{
-		//fo = 2*(a+(i*h)) + 3;
 		sum1 = sum1 + f(a+i*h);
 	}
 	for(i=2;i<n;i=i+2) //even terms
 	{
-		//fe = 2*(a+(i*h)) + 3;
 		sum2 = sum2 + f(a+i*h);
 	}
 	sum = sum + 4*sum1 + 2*sum2;

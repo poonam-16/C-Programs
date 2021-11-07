@@ -1,5 +1,4 @@
-//Accept parameter (lambda) of Poisson Distribution, calculate & print first 8 terms
-// of poisson distribution
+//Accept parameter (lambda) of Poisson Distribution, calculate & print first 8 terms of poisson distribution
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
